@@ -1,0 +1,1720 @@
+ /* body */
+* {
+    max-width: auto;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+  
+li{
+    list-style: none;
+}
+/* Wrapper */
+
+
+/* The start of the top header contact on a desktop */
+
+
+.toplink{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#contactHeader{
+background-color: #37383B ;
+justify-content: center;
+display: flex;
+}
+
+#contactHeaderContainer{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;    
+    width: 1440px
+}
+  
+.toplink{
+    color: white;
+    text-decoration: none;
+    
+}
+#socialLinks{
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+#contactlinks{
+    display: flex;
+    column-gap: 200px;
+}
+
+.Headlinkinner{
+    display: flex;
+    column-gap: 5px;
+}
+
+#menulinks{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#fb{
+    height: 19.84px;
+    width: 9.92px;
+}
+#twitter{
+    height: 17.88px;
+    width: 22px;
+}
+#insta{
+    height: 22px;
+    width: 22px;
+}
+
+/* End of the top header contact on a desktop */
+ 
+/* Start of main menu desktop */
+
+
+#menu{
+background-color: white;
+justify-content: center;
+display: flex;
+box-shadow: 0px 12px 24px rgba(0,0,0,.05);
+}
+
+.nav-item{
+    align-items: center;
+}
+
+#menucontainer{
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black; 
+    width: 1440px;
+}
+
+.menutext{
+    text-decoration: none;
+    justify-content: space-between;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15; 
+    align-items: center;
+    display: flex;
+}
+
+.menutextcontact{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15; 
+    width: 171px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #37383B;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.menutext:hover{
+    color: #0B92A5;
+    transition: color 1s ease;
+    transition: border-color 1s ease;  
+    border-bottom: 2px solid #0B92A5;
+}
+
+
+.menutext:active{
+    color: #0B92A5;
+    transition: color 1s ease;
+    transition: border-color 1s ease;  
+    border-bottom: 2px solid #0B92A5;
+}
+
+
+#logo{
+  width: 143px;
+  height: auto;  
+}
+
+
+
+/* End of main menu desktop */
+
+/* Start of hero section desktop */
+#heroSection{
+justify-content: center;
+display: flex;
+background-image: url("Images/backgroundkitchen1.png"); 
+background-repeat: round;
+}
+
+#herocontainer{
+    height: 600px;  
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    z-index: 1;
+    width: 1440px;
+}
+
+#blackhero{
+    width: 800px;
+    box-shadow: inset 0 0 0 1440px rgba(0,0,0,.60);
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+#herocontent{
+ width: 700px;
+ row-gap: 25px;  
+ display: flex;
+ flex-direction: column;
+ z-index: 3;
+ padding-left: 100px ;
+ padding-right: 100px ;
+}
+
+.underline{
+    border-bottom: 4px solid #DCB042;
+    padding-bottom: 7px
+}
+
+#Heroheadline{
+    font-size: 3.125rem;
+    font-weight: 500;
+}
+
+#herosub{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#herobutton{
+    display: flex;
+    column-gap: 40px;
+    
+}
+
+.consultation{   
+color: white;
+font-size: 18px;
+background-color: #DCB042;
+width: 200px;
+height: 60px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.consultation:hover{   
+    animation-direction: alternate;
+    transition: background-color 3s ease-in-out;
+    color: white;
+    font-size: 18px;
+    background-color: #0cce87;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+#offer{   
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    width: 200px;
+    height: 60px;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* End of hero section desktop */
+
+/* Start of why us section desktop */
+
+#WhyUs{
+    background-color: #F3F3F3;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 4px ;
+    color:#63666B;
+}
+   
+
+#whyuswrapper{
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#whyuscontent{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-right: 100px;
+}
+
+#kitchenimg{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.WhyUsBenefits{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    
+}
+
+.tick{
+    height: 36px;
+    width: 36px;
+}
+
+#divbenefits{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding-bottom:40px ;
+    padding-top: 40px;
+}
+
+
+
+#german{
+    font-size: 32px;
+    color: #151515;
+    padding-bottom: 20px;
+}
+
+/* End of why us section desktop */
+
+/* Start of whats on offer desktop */
+
+#WhatWeOffer{
+    justify-content: center;
+    display: flex;
+}
+
+#offercontainer{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    height: 800x;
+    width: 1440px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+.servicehead{
+    text-align: center;
+
+}
+
+.offer{
+    max-width: 300px;
+}
+
+.offersdiv{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+ 
+}
+
+.explorediv{
+    display: flex;
+   
+}
+
+.underline2{
+    border-bottom: 2px solid #0c0040;  
+}
+
+#underlineoffer{
+    border-bottom: 4px solid #DCB042;
+    font-size: 32px;
+}
+
+.servicehead{
+    margin-bottom: 40px;
+}
+
+.concepts{
+    font-family: Arial, Helvetica, sans-serif; /* Should be Inter */
+    font-size: 16px;
+    color: #777777;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.h3div{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-top: 25px;
+}
+
+
+/* End of whats on offer desktop */
+
+/* Start of map offer desktop */
+
+#location{
+     justify-content: center;
+     display: flex;
+     background-color:#F3F3F3;
+   }
+
+
+#map{ 
+    width:715px;
+    height: 360px;   
+    
+}
+
+#mapcontainer{
+    height: 465px; 
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    width: 1440px;  
+}
+
+#locationText{
+    width: 400px;
+    }
+
+/* End of map offer desktop */
+
+/* Start of form desktop */
+
+#darkbutton{   
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    background-color: transparent;
+    width: 200px;
+    height: 60px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+}
+#formdiv{
+    height: 645px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+#fname{
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#lname{
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#email{
+    height: 30px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+
+
+#formdiv h2{
+   font-size: 32px;
+}
+
+#form p{
+    padding-bottom: 5px;
+}
+
+input{
+    background-color:#F4F6FC;
+    border: none;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+
+.more{
+    width: 500px;
+    padding-bottom: 120px;
+    border: none;
+}
+/* End of form desktop */
+
+/* Start of footer desktop */
+
+#footer{
+    min-height: 500px;
+    background-color: #37383B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer h3 {
+    font-size: 17px;
+    font-weight: normal ;
+    color: #FFD2DD;
+}
+
+#footer p {
+    font-size: 17px;
+    font-weight: normal ;
+    color: white;
+}
+
+#footercontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    row-gap: 75px;
+    width: 1440px;
+}
+
+.toprowscontact{
+    width: 20%;
+}
+
+.toprowscontactwider{
+    width: 40%;
+    
+}
+#logo2{
+
+    width: 200px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+#topcontact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#bottomcontact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#tandc{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+/* End of footer desktop */
+
+/* Start of contact desktop */
+ #contact{
+    
+background-image: url("Images/contacbackdrop.png");
+box-shadow: inset 0 0 0 1440px rgba(0,0,0,.50);
+display: flex;
+justify-content: center;
+}
+
+#contactcontainer{
+display: flex;
+padding-left: 200px;
+padding-right: 200px;
+align-items: center;
+height: 360px;
+width: 1440px;
+ }
+
+ #contactcontainer h2{
+color: white;
+font-size: 32px;
+}
+
+
+.contactinfo{
+    display: flex;
+    justify-content: center;
+}
+
+.contactinfocontainer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 650px;
+    align-items: center;
+    width: 1440px;
+}
+
+.contactdetails{
+    width: 50%;
+    direction: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactdetails p{
+    line-height: 1.2;
+}
+
+
+.formcontainer{
+    width: 50%;
+
+}
+.darkicons{
+    height: 35px;
+    width: auto;
+    padding-right: 50px;
+}
+
+.darkcontacticons{
+    width: 25px;
+    height: auto;
+    padding-right: 12px;
+}
+
+.darkcontacticons2{
+    width: auto;
+    height: 32px;
+    padding-right: 12px;
+}
+
+.contacttrio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.contacttrio br {
+    display: block;
+    margin: 50px;
+ }
+
+
+ .iconsdiv{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+ }
+
+/* End of contact desktop */
+
+/* Beginning of kitchen and bathroom desction*/
+
+.mainkitchenbathroomimg{
+    padding-bottom: 20px;
+}
+
+.mainkitchenbathroomimg img{
+    height:auto;
+    width: 100%;
+}
+
+.KitchenBathroomDiv{
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.KitchenBathroomContainer{
+    padding-top: 30px;
+    padding-left: 100px ;
+    padding-right: 100px;
+    max-width: 1440px;
+}
+
+.kitchenbathroomimagestickycontainer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.kitchenbathroomimagestickycontainerleft{
+  width: 25%;
+  position: sticky;
+  top: 0;
+  height: 300px;
+}
+
+.kitchenbathroomimagestickycontainerright{
+width: 75%;
+margin-left: 20px;
+}
+
+.kitchenbathroomgrid{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+row-gap: 40px;
+}
+
+.kitchenbathroomgrid img{
+    width: 100%;
+    height: auto;
+}
+
+
+.gridcolumns1{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    width: 50%;
+}
+
+.gridcolumns2{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 50%;
+}
+
+.kitchenbathroomimagestickycontainerleft{
+    background-color: #D9D9D9;
+    height: 300px;
+    padding-top: 30px;
+    padding-left: 30px;
+    line-height: 2;
+}
+
+.kitchenbathroomimagestickycontainerleft a{
+    text-decoration: none;
+    color: #37383B;
+}
+
+.kitchenbathroomlinks{
+    padding-bottom: 20px;
+}
+
+
+
+/* End of kitchen and bathroom desction*/
+
+/* Mobile hamburger */
+
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition:all 0.3s ease-in-out ;
+    transition:all 0.3s ease-in-out ;
+    background-color: #151515;
+}
+
+.KitchenBathroomHead h2{
+    color: #151515;
+    font-size: 48px;
+}
+
+.KitchenBathroomHead p{
+    color: #151515;
+    font-size: 16px;
+}
+
+.smallheader{
+    display: flex;
+    flex-direction: row;
+}
+
+.smallheader h3{
+    color: #63666B;
+    font-size: 17px;
+    
+}
+
+.smallheader p{
+    color: #63666B;
+    font-size: 17px;
+    
+}
+
+
+
+
+/* Media Queries*/
+
+/* Tablet */
+
+@media screen and (max-width: 1112px) {
+
+    * {
+        width: auto;
+        margin:0;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px)rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px)rotate(-45deg);
+    }
+
+    .menucontainer{
+        position:fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .menucontainer.active{
+        left: 0;
+    }
+
+
+
+    
+        #contactHeader{
+        display: none;
+        }   
+
+        
+        .menutext{
+            display: none;
+        }
+        
+        .menutextcontact{
+            display: none;
+        }   
+        
+/* Start of hero iPad */
+#heroSection{
+    height: 600px;
+    background-image: url("Images/backgroundkitchen1.png");   
+    box-shadow: inset 0 0 0 1440px rgba(0,0,0,.20);   
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+   
+}
+
+#blackhero{
+    box-shadow: inset 0 0 0 1440px rgba(0,0,0,.50);
+    width: 100%;
+}
+
+#herocontent{
+ width: auto;
+ row-gap: 25px;  
+ display: flex;
+ flex-direction: column;
+ z-index: 3;
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+.underline{
+    border-bottom: 4px solid #DCB042;
+    padding-bottom: 7px
+}
+
+#Heroheadline{
+    font-size: 3.125rem;
+    font-weight: 500;
+}
+
+#herosub{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#herobutton{
+    display: flex;
+    column-gap: 40px;
+    
+}
+
+.consultation{   
+color: white;
+font-size: 18px;
+background-color: #DCB042;
+width: 200px;
+height: 60px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.consultation:hover{   
+    animation-direction: alternate;
+    transition: background-color 3s ease-in-out;
+    color: white;
+    font-size: 18px;
+    background-color: #0cce87;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+#offer{   
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    width: 200px;
+    height: 60px;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* End of hero iPad */
+
+/* Start of why us section Tablet */
+#WhyUs{
+    background-color: #F3F3F3;
+}
+
+#whyuswrapper{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+
+#whyuscontent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    padding-right: 100px;
+}
+
+#kitchenimg{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.WhyUsBenefits{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    
+}
+
+.tick{
+    height: 36px;
+    width: 36px;
+}
+
+#divbenefits{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding-bottom:40px ;
+    padding-top: 40px;
+}
+
+#whyus{
+    padding-bottom: 4px ;
+    color:#63666B;
+}
+
+#german{
+    font-size: 32px;
+    color: #151515;
+    padding-bottom: 20px;
+}
+
+/* End of why us section Tablet */        
+
+/* Start of whats on offer Tablet */
+
+#WhatWeOffer{
+    height: auto;
+}
+    
+    #offercontainer{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        height: fit-content;
+        padding:0;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;    
+    }
+    
+    
+    .servicehead{
+        text-align: center;
+    }
+    
+    .offer{
+        width: 30%;
+        justify-content: space-between;
+    }
+    
+    .offersdiv{
+    display: flex;
+    flex-direction: row;
+    }
+    
+   .conceptimg{
+    width: 80%;
+    
+   }
+     
+    
+    .explorediv{
+        display: flex;
+       
+    }
+    
+    .underline2{
+        border-bottom: 2px solid #0c0040;
+        width: auto;  
+    }
+    
+    #underlineoffer{
+        border-bottom: 4px solid #DCB042;
+        font-size: 32px;
+    }
+    
+    .servicehead{
+        margin-bottom: 40px;
+    }
+    
+    .concepts{
+        font-family: Arial, Helvetica, sans-serif; /* Should be Inter */
+        font-size: 16px;
+        color: #777777;
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+    
+    .h3div{
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        padding-top: 25px;
+    }
+    
+    
+    /* End of whats on offer Tablet*/
+
+    /* Start of map offer Tablet */
+ 
+ #googlemap{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+ }
+ 
+
+ 
+ #locationText{
+     width: 40%
+     }
+
+ #location{
+        justify-content: center;
+        display: flex;
+        background-color:#F3F3F3;
+      }
+   
+   
+#map{ 
+      width:90%;
+       height: 300px;     
+   }
+   
+ #mapcontainer{
+       height: 465px; 
+       display: flex;
+       align-items: center;
+       padding-left: 100px;
+       padding-right: 100px;
+       justify-content: space-between;
+       width: auto;  
+       padding-left: 50px;
+       padding-right: 50px;
+   }
+ 
+ /* End of map offer tablet */
+
+ /* Start of form tablet */
+
+#darkbutton{   
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    background-color: transparent;
+    width: 200px;
+    height: 60px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+}
+#formdiv{
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    column-gap: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#fname{
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#lname{
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#email{
+    height: 30px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+
+
+#formdiv h2{
+   font-size: 32px;
+}
+
+#form p{
+    padding-bottom: 5px;
+}
+
+input{
+    background-color:#F4F6FC;
+    border: none;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+
+.more{
+    width: 500px;
+    padding-bottom: 120px;
+    border: none;
+}
+/* End of form tablet */
+
+/* Start of footer tablet */
+
+#footer{
+    min-height: auto;
+    background-color: #37383B;
+    display: flex;
+    align-items: center;
+}
+
+#footer h3 {
+    font-size: 17px;
+    font-weight: normal ;
+    color: #FFD2DD;
+}
+
+#footer p {
+    font-size: 17px;
+    font-weight: normal ;
+    color: white;
+}
+
+#footercontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    row-gap: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.toprowscontact{
+    width: 20%;
+}
+
+.toprowscontactwider{
+    width: 40%;
+    
+}
+#logo2{
+
+    width: 200px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+#topcontact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#bottomcontact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#tandc{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+}
+
+
+/* Start of responsive for mobile */
+
+@media screen and (max-width: 480px) {
+
+    * {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    max-width: 410px;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+#contactHeader{
+        display: none;
+        }   
+
+        .menutext{
+            display: none;
+        }
+        
+        .menutextcontact{
+            display: none;
+        }   
+
+        #menucontainer{
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+        
+/* Start of hero iPhone */
+#heroSection{
+justify-content: center;
+display: flex;
+background-image: url("Images/backgroundkitchen1.png");   
+}
+
+#herocontainer{
+width: auto;
+    background-image: url("Images/backgroundkitchen1.png");   
+    box-shadow: inset 0 0 0 1440px rgba(0,0,0,.20);   
+    color: white;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    flex-direction: row;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#heroSection h1{
+    font-size: 35px;
+}
+
+#blackhero{
+    box-shadow: inset 0 0 0 1440px rgba(0,0,0,.50);
+    padding: 0;
+    width: auto;
+
+}
+
+#herocontent{
+ width: autopx;
+ row-gap: 25px;  
+ display: flex;
+ flex-direction: column;
+ z-index: 3;
+ padding-left: 16px ;
+ padding-right: 16px ;
+}
+
+.underline{
+    border-bottom: 4px solid #DCB042;
+    padding-bottom: 7px
+}
+
+#Heroheadline{
+    font-size: 3.125rem;
+    font-weight: 500;
+}
+
+#herosub{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#herobutton{
+    display: flex;
+    display: inline;
+}
+
+.consultation{   
+color: white;
+font-size: 18px;
+background-color: #DCB042;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.consultation:hover{   
+    animation-direction: alternate;
+    transition: background-color 3s ease-in-out;
+    color: white;
+    font-size: 18px;
+    background-color: #0cce87;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+#offer{   
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    width: auto;
+    height: 60px;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* End of hero iPhone */
+
+/* Start of why us section phone */
+#WhyUs{
+    background-color: #F3F3F3;
+}
+
+#whyuswrapper{
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+
+#whyuscontent{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    padding-right: 100px;
+}
+
+#kitchenimg{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.WhyUsBenefits{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    
+}
+
+.tick{
+    height: 36px;
+    width: 36px;
+}
+
+#divbenefits{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding-bottom:40px ;
+    padding-top: 40px;
+}
+
+#whyus{
+    padding-bottom: 4px ;
+    color:#63666B;
+}
+
+#german{
+    font-size: 32px;
+    color: #151515;
+    padding-bottom: 20px;
+}
+
+/* End of why us section phone */        
+
+/* Start of whats on offer phone */
+
+#WhatWeOffer{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+    
+    #offercontainer{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        height: fit-content;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 16px;
+        padding-bottom: 16px;   
+        justify-content: center;
+    }
+    
+    
+    .servicehead{
+        text-align: center;
+    }
+    
+    .offer{
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .offersdiv{
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: row;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+   .conceptimg{
+    width: 100%;
+   }
+     
+    
+    .explorediv{
+        display: flex;
+       
+    }
+    
+    .underline2{
+        border-bottom: 2px solid #0c0040;
+        width: auto;  
+    }
+    
+    #underlineoffer{
+        border-bottom: 4px solid #DCB042;
+        font-size: 32px;
+    }
+    
+    .servicehead{
+        margin-bottom: 40px;
+    }
+    
+    .concepts{
+        font-family: Arial, Helvetica, sans-serif; /* Should be Inter */
+        font-size: 16px;
+        color: #777777;
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+    
+    .h3div{
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        padding-top: 25px;
+    }
+    
+    
+    /* End of whats on offer phone*/
+
+    /* Start of map offer phone*/
+ 
+ #googlemap{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+ }
+ 
+
+ 
+ #locationText{
+     width: 100%;
+     }
+
+ #location{
+        justify-content: center;
+        display: flex;
+        background-color:#F3F3F3;
+      }
+   
+   
+#map{ 
+      width:100%;
+       height: 300px;     
+   }
+   
+ #mapcontainer{
+       height: auto;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding-left: 100px;
+       padding-right: 100px;
+       justify-content: space-between;
+      width: auto;  
+       padding-left: 16px;
+       padding-right: 16px;
+   }
+ 
+ /* End of map offer phone */
+
+ /* Start of form phone */
+
+#darkbutton{   
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    background-color: transparent;
+    width: auto;
+    height: 60px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+}
+#formdiv{
+    justify-content: center;
+display: flex;
+}
+
+#formcontainer{
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+}
+
+#fname{
+    width: auto;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#lname{
+    width: auto;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#email{
+    height: 30px;
+    width: auto;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+
+#formdiv h2{
+   font-size: 32px;
+}
+
+#form p{
+    padding-bottom: 5px;
+}
+
+input{
+    background-color:#F4F6FC;
+    border: none;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+
+.more{
+    width: auto;
+    border: none;
+}
+/* End of form phone */
+
+/* Start of footer phone */
+
+#footer{
+    min-height: auto;
+    background-color: #37383B;
+    display: flex;
+    align-items: center;
+}
+
+#footer h3 {
+    font-size: 17px;
+    font-weight: normal ;
+    color: #FFD2DD;
+}
+
+#footer p {
+    font-size: 17px;
+    font-weight: normal ;
+    color: white;
+}
+
+#footercontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    row-gap: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.toprowscontact{
+    width: 20%;
+}
+
+.toprowscontactwider{
+    width: 40%;
+    
+}
+#logo2{
+
+    width: 50px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+#topcontact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#bottomcontact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#tandc{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+}
+}
